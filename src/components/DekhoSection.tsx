@@ -19,7 +19,7 @@ const DekhoSection = () => {
             <span className="font-semibold text-foreground">
               TellMe Digiinfotech
             </span>
-            , we procure high-quality VR footage of India's most iconic
+            , we procure high-quality VR footage of India&apos;s most iconic
             destinations and bring them to communities who may never get to
             travel. A virtual pilgrimage of joy, wonder, and national pride.
           </p>

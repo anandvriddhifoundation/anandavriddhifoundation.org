@@ -31,7 +31,7 @@ const AboutSection = () => {
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Ananda Vriddhi Foundation is a pioneering NGO in India using
-            high-quality VR footage to give virtual tours of India's most
+            high-quality VR footage to give virtual tours of India&apos;s most
             beautiful destinations to underserved communities. In collaboration
             with{' '}
             <span className="font-semibold text-foreground">

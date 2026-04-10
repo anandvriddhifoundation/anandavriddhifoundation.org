@@ -27,7 +27,7 @@ const HeroSection = () => {
           Virtual Experiences. <span className="text-amber-400">Real Joy.</span>
         </h1>
         <p className="animate-fade-up mt-6 text-lg md:text-xl text-white/90 max-w-2xl mx-auto font-sans leading-relaxed [text-shadow:_1px_2px_4px_rgb(0_0_0_/_80%)]">
-          Bringing the wonders of India to those who can't travel — seniors in
+          Bringing the wonders of India to those who can&apos;t travel — seniors in
           old age homes, children in orphanages, and students in underserved
           schools — through immersive VR experiences.
         </p>

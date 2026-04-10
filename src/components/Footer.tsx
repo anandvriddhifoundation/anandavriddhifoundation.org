@@ -19,7 +19,7 @@ const Footer = () => {
             />
             <p className="text-foreground/80 leading-relaxed text-lg">
               Pioneers in using VR technology for social outreach — bringing the
-              beauty of India to those who can't travel. Registered NGO with all
+              beauty of India to those who can&apos;t travel. Registered NGO with all
               regulatory approvals.
             </p>
           </div>
