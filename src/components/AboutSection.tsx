@@ -39,7 +39,7 @@ const AboutSection = () => {
             </span>
             , we procure immersive content and conduct our signature{' '}
             <span className="font-normal text-warm-gold">
-              "Dekho Apna Desh"
+              &quot;Dekho Apna Desh&quot;
             </span>{' '}
             programme.
           </p>
