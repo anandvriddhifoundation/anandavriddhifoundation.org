@@ -42,8 +42,7 @@ next-env.d.ts
 dist
 dist/*
 
-public/
-public/*
+
 
 daemon/
 daemon/*
