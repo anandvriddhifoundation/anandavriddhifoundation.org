@@ -1,11 +1,14 @@
-import { Button } from "@/components/ui/button";
-import { Heart, Play } from "lucide-react";
-import Image from "next/image";
-import heroImage from "@/assets/home_page/horizontal_3.jpg";
+import { Button } from '@/components/ui/button';
+import { Heart, Play } from 'lucide-react';
+import Image from 'next/image';
+import heroImage from '@/assets/home_page/horizontal_3.jpg';
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       <Image
         src={heroImage}
         alt="Elderly woman experiencing virtual reality with pure joy"
@@ -21,21 +24,31 @@ const HeroSection = () => {
           Pioneers in VR Social Outreach
         </p>
         <h1 className="animate-fade-up text-4xl md:text-6xl lg:text-7xl font-serif font-normal text-white leading-tight max-w-4xl mx-auto [text-shadow:_2px_4px_10px_rgb(0_0_0_/_80%)]">
-          Virtual Experiences.{" "}
-          <span className="text-amber-400">Real Joy.</span>
+          Virtual Experiences. <span className="text-amber-400">Real Joy.</span>
         </h1>
         <p className="animate-fade-up mt-6 text-lg md:text-xl text-white/90 max-w-2xl mx-auto font-sans leading-relaxed [text-shadow:_1px_2px_4px_rgb(0_0_0_/_80%)]">
-          Bringing the wonders of India to those who can't travel — seniors in old age homes,
-          children in orphanages, and students in underserved schools — through immersive VR experiences.
+          Bringing the wonders of India to those who can't travel — seniors in
+          old age homes, children in orphanages, and students in underserved
+          schools — through immersive VR experiences.
         </p>
         <div className="animate-fade-up mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <Button variant="hero" size="lg" className="text-base px-8 py-6" asChild>
+          <Button
+            variant="hero"
+            size="lg"
+            className="text-base px-8 py-6"
+            asChild
+          >
             <a href="#donate">
               <Heart className="w-5 h-5" />
               Support Our Mission
             </a>
           </Button>
-          <Button variant="hero-outline" size="lg" className="text-base px-8 py-6" asChild>
+          <Button
+            variant="hero-outline"
+            size="lg"
+            className="text-base px-8 py-6"
+            asChild
+          >
             <a href="#what-we-do">
               <Play className="w-5 h-5" />
               See Our Work

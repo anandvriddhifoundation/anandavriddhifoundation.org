@@ -1,4 +1,4 @@
-import { MapPin, Eye, Smile } from "lucide-react";
+import { MapPin, Eye, Smile } from 'lucide-react';
 
 const DekhoSection = () => {
   return (
@@ -15,35 +15,46 @@ const DekhoSection = () => {
             India is breathtaking. Not everyone gets to see it. We change that.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed mb-12 max-w-2xl mx-auto">
-            In partnership with <span className="font-semibold text-foreground">TellMe Digiinfotech</span>,
-            we procure high-quality VR footage of India's most iconic destinations and bring them to
-            communities who may never get to travel. A virtual pilgrimage of joy, wonder, and national pride.
+            In partnership with{' '}
+            <span className="font-semibold text-foreground">
+              TellMe Digiinfotech
+            </span>
+            , we procure high-quality VR footage of India's most iconic
+            destinations and bring them to communities who may never get to
+            travel. A virtual pilgrimage of joy, wonder, and national pride.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: <Eye className="w-8 h-8 text-warm-gold" />,
-                title: "Immersive VR Tours",
+                title: 'Immersive VR Tours',
                 desc: "360° high-quality footage of India's heritage sites, temples, hill stations, and national landmarks.",
               },
               {
                 icon: <MapPin className="w-8 h-8 text-warm-gold" />,
-                title: "Pan-India Coverage",
-                desc: "From the Himalayas to Kanyakumari, from Rajasthan forts to Kerala backwaters — India comes alive.",
+                title: 'Pan-India Coverage',
+                desc: 'From the Himalayas to Kanyakumari, from Rajasthan forts to Kerala backwaters — India comes alive.',
               },
               {
                 icon: <Smile className="w-8 h-8 text-warm-gold" />,
-                title: "Joy & Education",
-                desc: "Every session combines entertainment with learning — geography, culture, and history through experience.",
+                title: 'Joy & Education',
+                desc: 'Every session combines entertainment with learning — geography, culture, and history through experience.',
               },
             ].map((item, i) => (
-              <div key={i} className="bg-card rounded-xl p-8 shadow-sm border border-border text-center">
+              <div
+                key={i}
+                className="bg-card rounded-xl p-8 shadow-sm border border-border text-center"
+              >
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-5">
                   {item.icon}
                 </div>
-                <h3 className="text-xl font-serif font-normal text-foreground mb-3">{item.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
+                <h3 className="text-xl font-serif font-normal text-foreground mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {item.desc}
+                </p>
               </div>
             ))}
           </div>

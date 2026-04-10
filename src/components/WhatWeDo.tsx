@@ -8,7 +8,7 @@ const programmes = [
   {
     title: 'Elderly Care & Well-Being',
     description:
-      'We bring immersive VR travel experiences to senior citizens, helping combat loneliness and restore joy. Our elders virtually visit India\'s most beautiful destinations from the comfort of their homes.',
+      "We bring immersive VR travel experiences to senior citizens, helping combat loneliness and restore joy. Our elders virtually visit India's most beautiful destinations from the comfort of their homes.",
     image: elderlyCareImg,
     href: '/what-we-do/elderly-care',
     tag: 'Old Age Homes',
@@ -102,9 +102,21 @@ export const WhatWeDoCards = () => {
       <div className="container mx-auto px-4">
         <div className="grid sm:grid-cols-3 gap-6 text-center">
           {[
-            { icon: '🕶️', title: 'VR Technology', desc: 'High-quality 360° immersive experiences' },
-            { icon: '🇮🇳', title: 'Pan-India Reach', desc: 'From Himalayas to Kanyakumari' },
-            { icon: '❤️', title: 'Social Impact', desc: 'Registered NGO with full compliance' },
+            {
+              icon: '🕶️',
+              title: 'VR Technology',
+              desc: 'High-quality 360° immersive experiences',
+            },
+            {
+              icon: '🇮🇳',
+              title: 'Pan-India Reach',
+              desc: 'From Himalayas to Kanyakumari',
+            },
+            {
+              icon: '❤️',
+              title: 'Social Impact',
+              desc: 'Registered NGO with full compliance',
+            },
           ].map((card) => (
             <div
               key={card.title}

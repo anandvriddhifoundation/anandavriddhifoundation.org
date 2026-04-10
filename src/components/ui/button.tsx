@@ -25,8 +25,7 @@ const buttonVariants = cva(
         link: 'text-primary underline-offset-4 hover:underline',
         donate:
           'bg-amber-500 text-white shadow-lg hover:bg-amber-600 active:scale-95 font-semibold tracking-wide',
-        hero:
-          'bg-white text-gray-900 shadow-xl hover:bg-amber-50 active:scale-95 font-semibold',
+        hero: 'bg-white text-gray-900 shadow-xl hover:bg-amber-50 active:scale-95 font-semibold',
         'hero-outline':
           'border-2 border-white text-white bg-white/10 backdrop-blur-sm hover:bg-white/20 active:scale-95 font-semibold',
       },
