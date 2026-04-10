@@ -34,7 +34,7 @@ const DekhoSection = () => {
               {
                 icon: <MapPin className="w-8 h-8 text-warm-gold" />,
                 title: 'Pan-India Coverage',
-                desc: 'From the Himalayas to Kanyakumari, from Rajasthan forts to Kerala backwaters — India comes alive.',
+                desc: 'From the Himalayas to Rameshwaram, from Rajasthan forts to Meghalaya — India comes alive.',
               },
               {
                 icon: <Smile className="w-8 h-8 text-warm-gold" />,

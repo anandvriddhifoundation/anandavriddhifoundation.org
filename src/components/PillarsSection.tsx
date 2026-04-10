@@ -8,7 +8,7 @@ const pillars = [
     title: 'Old Age Homes',
     subtitle: 'Elderly Care & Well-Being',
     description:
-      'We bring immersive VR travel experiences to senior citizens, helping combat loneliness and boredom. From the comfort of their homes, elders virtually visit the Taj Mahal, Kerala backwaters, and Himalayan peaks — sparking joy and supporting cognitive health.',
+      'We bring immersive VR travel experiences to senior citizens, helping combat loneliness and boredom. From the comfort of their homes, elders virtually visit the Taj Mahal, Kerala backwaters, Himalayan peaks and witness Aarti of Shirdi Sai Baba  sparking joy and supporting cognitive health.',
     points: [
       'Combats loneliness and social isolation',
       'Stimulates memory and cognitive well-being',
@@ -21,10 +21,10 @@ const pillars = [
     title: 'Orphanages',
     subtitle: 'Dreams Without Boundaries',
     description:
-      "Children in orphanages rarely get the chance to travel. Through VR, we give them the gift of exploration — letting them discover India's heritage, wildlife, and wonders. Every session brings wonder, laughter, and new dreams.",
+      "Children in orphanages rarely get the chance to travel. Through VR, we give them the gift of exploration — letting them discover India's heritage, wildlife & nature. Indulge in adventure of rafting etc. Every session brings wonder, laughter, and new dreams.",
     points: [
-      "Immersive discovery of India's heritage and nature",
-      'Encourages curiosity, creativity, and wonder',
+      "Immersive VR Tours 360° high-quality footage of India's heritage sites, temples, hill stations, adventure and national landmarks.",
+      'Encourages curiosity, creativity, and learning',
       'Joyful shared experiences in group settings',
     ],
     image: orphanageImg,

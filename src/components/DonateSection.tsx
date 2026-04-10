@@ -15,11 +15,7 @@ const DonateSection = () => {
             <span className="text-gradient-warm">Real Smiles</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-            Every donation helps us reach one more old age home, one more
-            orphanage, one more school. Together, we can let thousands
-            experience the beauty of India — and the joy of discovery. We are
-            fully registered and compliant with all regulatory requirements for
-            receiving donations.
+            Every donation helps us reach one more old age home, one more orphanage, one more school. Together, we can let thousands experience the beauty of India — and the joy of discovery. We are  registered and fully compliant with all regulatory requirements for receiving donations.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6 mb-12">
@@ -32,12 +28,12 @@ const DonateSection = () => {
               {
                 icon: <Heart className="w-6 h-6" />,
                 title: '₹2,500',
-                desc: 'Group Session for Old Age Home',
+                desc: '1 Group Session for Old Age Home',
               },
               {
                 icon: <HandHeart className="w-6 h-6" />,
                 title: '₹10,000',
-                desc: 'Sponsors 4 institutional visit',
+                desc: 'Sponsors 4 institutional visits',
               },
             ].map((tier, i) => (
               <div

@@ -5,23 +5,28 @@ import { Button } from '@/components/ui/button';
 import { Heart, Menu, X } from 'lucide-react';
 import logo from '@/assets/images/logo.png';
 import { futuraFont } from '@/assets/fonts';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === '/';
+
+  const prefix = isHome ? '' : '/';
 
   const navLinks = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'What We Do', href: '#what-we-do' },
-    { label: 'Impact', href: '#impact' },
-    { label: 'Dekho Apna Desh', href: '#dekho' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Home', href: `${prefix}#home` },
+    { label: 'About', href: `${prefix}#about` },
+    { label: 'What We Do', href: `${prefix}#what-we-do` },
+    { label: 'Impact', href: `${prefix}#impact` },
+    { label: 'Dekho Apna Desh', href: `${prefix}#dekho` },
+    { label: 'Contact', href: `${prefix}#contact` },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 flex items-center justify-between h-20">
-        <a href="#home" className="flex items-center gap-2">
+        <a href={`${prefix}#home`} className="flex items-center gap-2">
           <Image
             src={logo}
             alt="Ananda Vriddhi Foundation Logo"
@@ -41,7 +46,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="donate" size="lg" asChild>
-            <a href="#donate">
+            <a href={`${prefix}#donate`}>
               <Heart className="w-4 h-4" />
               Donate Now
             </a>
@@ -71,7 +76,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="donate" className="w-full mt-3" asChild>
-            <a href="#donate">
+            <a href={`${prefix}#donate`}>
               <Heart className="w-4 h-4" />
               Donate Now
             </a>

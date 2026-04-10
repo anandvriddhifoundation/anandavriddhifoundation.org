@@ -5,7 +5,7 @@ const AboutSection = () => {
     {
       icon: <Lightbulb className="w-6 h-6 text-warm-gold" />,
       title: 'Innovation with Purpose',
-      desc: 'We harness cutting-edge VR technology not for entertainment, but for genuine social impact.',
+      desc: 'We harness cutting-edge VR technology not only for entertainment, but  also for genuine social impact.',
     },
     {
       icon: <Users className="w-6 h-6 text-warm-gold" />,
@@ -15,7 +15,7 @@ const AboutSection = () => {
     {
       icon: <Shield className="w-6 h-6 text-warm-gold" />,
       title: 'Fully Compliant',
-      desc: 'We hold all necessary regulatory approvals to conduct activities and receive donations transparently.',
+      desc: 'We hold all necessary regulatory approvals to conduct activities and receive donations transparently.We issue receipt  for claiming IT exemption under Sec 80G.',
     },
   ];
 

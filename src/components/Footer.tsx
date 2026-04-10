@@ -84,15 +84,31 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-foreground/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
+        <div className="border-t border-foreground/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-base text-foreground/60">
             © {new Date().getFullYear()} Ananda Vriddhi Foundation. All rights
             reserved.
           </p>
-          <p className="text-base text-foreground/60 flex items-center gap-1 mt-2 md:mt-0">
-            Built with <Heart className="w-4 h-4 text-heart-red" /> for a better
-            India
-          </p>
+          <div className="flex items-center gap-4 flex-wrap justify-center">
+            <a
+              href="/privacy-policy"
+              className="text-base text-foreground/60 hover:text-warm-gold transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <span className="text-foreground/30">|</span>
+            <a
+              href="/terms-and-conditions"
+              className="text-base text-foreground/60 hover:text-warm-gold transition-colors"
+            >
+              Terms &amp; Conditions
+            </a>
+            <span className="text-foreground/30 hidden md:inline">|</span>
+            <p className="text-base text-foreground/60 flex items-center gap-1">
+              Built with <Heart className="w-4 h-4 text-heart-red" /> for a better
+              India
+            </p>
+          </div>
         </div>
       </div>
     </footer>
