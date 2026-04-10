@@ -1,0 +1,134 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>Ananda Vriddhi Foundation - Website Content Documentation</title>
+<style>
+body { font-family: 'Arial', sans-serif; font-size: 12pt; line-height: 1.5; color: #000; }
+h1 { font-size: 24pt; color: #2C3E50; border-bottom: 1px solid #2C3E50; padding-bottom: 5px; }
+h2 { font-size: 16pt; color: #34495E; margin-top: 20px; text-decoration: underline; }
+h3 { font-size: 14pt; color: #2980B9; margin-top: 15px; }
+p { margin: 10px 0; }
+ul { margin: 10px 0 20px 20px; }
+li { margin-bottom: 8px; }
+strong { font-weight: bold; color: #333; }
+</style>
+</head>
+<body>
+
+<h1>Ananda Vriddhi Foundation - Website Content Documentation</h1>
+
+<h2>1. Hero Section</h2>
+<ul>
+  <li><strong>Tagline:</strong> Pioneers in VR Social Outreach</li>
+  <li><strong>Heading:</strong> Virtual Experiences. Real Joy.</li>
+  <li><strong>Sub-text:</strong> Bringing the wonders of India to those who can't travel — seniors in old age homes, children in orphanages, and students in underserved schools — through immersive VR experiences.</li>
+  <li><strong>Call-to-Action Buttons:</strong> Support Our Mission, See Our Work</li>
+</ul>
+
+<h2>2. About Section</h2>
+<ul>
+  <li><strong>Subtitle:</strong> Who We Are</li>
+  <li><strong>Heading:</strong> Bringing Joy Through Technology</li>
+  <li><strong>Description:</strong> Ananda Vriddhi Foundation is a pioneering NGO in India using high-quality VR footage to give virtual tours of India's most beautiful destinations to underserved communities. In collaboration with <strong>TellMe Digiinfotech</strong>, we procure immersive content and conduct our signature "Dekho Apna Desh" programme.</li>
+</ul>
+<h3>Core Values:</h3>
+<ul>
+  <li><strong>Innovation with Purpose:</strong> We harness cutting-edge VR technology not for entertainment, but for genuine social impact.</li>
+  <li><strong>Inclusive Outreach:</strong> Serving old age homes, orphanages, and schools for economically weaker and differently-abled communities.</li>
+  <li><strong>Fully Compliant:</strong> We hold all necessary regulatory approvals to conduct activities and receive donations transparently.</li>
+</ul>
+
+<h2>3. What We Do</h2>
+<ul>
+  <li><strong>Subtitle:</strong> Our Work</li>
+  <li><strong>Heading:</strong> What We Do</li>
+  <li><strong>Description:</strong> Three pillars of compassion — spreading joy and knowledge through immersive virtual experiences.</li>
+</ul>
+<h3>Programmes:</h3>
+<ul>
+  <li><strong>Elderly Care & Well-Being</strong> <em>(Old Age Homes - 15+ Homes Visited)</em><br>
+  We bring immersive VR travel experiences to senior citizens, helping combat loneliness and restore joy. Our elders virtually visit India's most beautiful destinations from the comfort of their homes.</li>
+  <li><strong>Education & Skill Development</strong> <em>(Schools - 10+ Schools Covered)</em><br>
+  VR transforms learning from textbooks into experiences — making geography, history, and culture come alive for students in underserved schools across India.</li>
+  <li><strong>Rural Impact & Community Outreach</strong> <em>(Orphanages & Rural - 200+ Lives Touched)</em><br>
+  We extend our reach to orphanages and rural communities, ensuring every child regardless of background gets access to immersive educational VR experiences.</li>
+</ul>
+<h3>Technology Strengths:</h3>
+<ul>
+  <li><strong>VR Technology:</strong> High-quality 360° immersive experiences</li>
+  <li><strong>Pan-India Reach:</strong> From Himalayas to Kanyakumari</li>
+  <li><strong>Social Impact:</strong> Registered NGO with full compliance</li>
+</ul>
+
+<h2>4. Three Pillars of Compassion</h2>
+<ul>
+  <li><strong>Subtitle:</strong> What We Do</li>
+  <li><strong>Heading:</strong> Three Pillars of Compassion</li>
+  <li><strong>Description:</strong> Our social outreach spans three vital segments, each united by one goal — spreading joy and knowledge through immersive virtual experiences.</li>
+</ul>
+<h3>Segments:</h3>
+<ul>
+  <li><strong>Old Age Homes | Elderly Care & Well-Being</strong><br>
+  We bring immersive VR travel experiences to senior citizens, helping combat loneliness and boredom. From the comfort of their homes, elders virtually visit the Taj Mahal, Kerala backwaters, and Himalayan peaks — sparking joy and supporting cognitive health.</li>
+  <li><strong>Orphanages | Dreams Without Boundaries</strong><br>
+  Children in orphanages rarely get the chance to travel. Through VR, we give them the gift of exploration — letting them discover India's heritage, wildlife, and wonders. Every session brings wonder, laughter, and new dreams.</li>
+  <li><strong>Schools | Education for All Abilities</strong><br>
+  We partner with schools serving economically weaker sections and differently-abled students. VR transforms learning from textbooks into experiences — making geography, history, and culture come alive in ways students never imagined.</li>
+</ul>
+
+<h2>5. Dekho Apna Desh Programme</h2>
+<ul>
+  <li><strong>Subtitle:</strong> Our Signature Programme</li>
+  <li><strong>Heading:</strong> 🇮🇳 Dekho Apna Desh</li>
+  <li><strong>Description:</strong> In partnership with <strong>TellMe Digiinfotech</strong>, we procure high-quality VR footage of India's most iconic destinations and bring them to communities who may never get to travel. A virtual pilgrimage of joy, wonder, and national pride.</li>
+</ul>
+<h3>Key Features:</h3>
+<ul>
+  <li><strong>Immersive VR Tours:</strong> 360° high-quality footage of India's heritage sites, temples, hill stations, and national landmarks.</li>
+  <li><strong>Pan-India Coverage:</strong> From the Himalayas to Kanyakumari, from Rajasthan forts to Kerala backwaters — India comes alive.</li>
+  <li><strong>Joy & Education:</strong> Every session combines entertainment with learning — geography, culture, and history through experience.</li>
+</ul>
+
+<h2>6. Impact</h2>
+<ul>
+  <li><strong>Heading:</strong> Our Impact / Numbers That Tell a Story</li>
+</ul>
+<h3>Statistics:</h3>
+<ul>
+  <li>20+ VR Sessions Delivered</li>
+  <li>300+ Lives Touched</li>
+  <li>15+ Institutional Partners</li>
+  <li>100+ Passionate Volunteers</li>
+</ul>
+
+<h2>7. Donate Section</h2>
+<ul>
+  <li><strong>Heading:</strong> Your Support Creates Real Smiles</li>
+  <li><strong>Description:</strong> Every donation helps us reach one more old age home, one more orphanage, one more school. Together, we can let thousands experience the beauty of India — and the joy of discovery. We are fully registered and compliant with all regulatory requirements for receiving donations.</li>
+</ul>
+<h3>Sponsorship Tiers:</h3>
+<ul>
+  <li><strong>₹500:</strong> Sponsors 1 VR session for a child</li>
+  <li><strong>₹2,000:</strong> Covers a full group session</li>
+  <li><strong>₹10,000:</strong> Sponsors a complete institutional visit</li>
+</ul>
+<p><strong>Note:</strong> All donations are eligible for tax exemption under applicable sections.</p>
+
+<h2>8. Footer / Contact Information</h2>
+<ul>
+  <li><strong>About Brand:</strong> Pioneers in using VR technology for social outreach — bringing the beauty of India to those who can't travel. Registered NGO with all regulatory approvals.</li>
+  <li><strong>Quick Links:</strong> Home, About, What We Do, Impact, Dekho Apna Desh</li>
+</ul>
+<h3>Contact Details:</h3>
+<ul>
+  <li><strong>Instagram:</strong> @anandavriddhi</li>
+  <li><strong>Website:</strong> anandavriddhifoundation.org</li>
+  <li><strong>Email:</strong> info@anandavriddhifoundation.org</li>
+  <li><strong>Phone:</strong> +91 917 570 1913</li>
+</ul>
+<p><strong>Copyright:</strong> © 2024 Ananda Vriddhi Foundation. All rights reserved. Built with ❤️ for a better India.</p>
+
+</body>
+</html>
