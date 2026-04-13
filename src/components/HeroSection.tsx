@@ -49,7 +49,7 @@ const HeroSection = () => {
             className="text-base px-8 py-6"
             asChild
           >
-            <a href="#what-we-do">
+            <a href="#impact">
               <Play className="w-5 h-5" />
               See Our Work
             </a>
