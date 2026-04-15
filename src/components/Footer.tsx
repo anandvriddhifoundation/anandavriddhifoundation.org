@@ -67,11 +67,11 @@ const Footer = () => {
                 anandavriddhifoundation.org
               </a>
               <a
-                href="mailto:info@anandavriddhifoundation.org"
+                href="mailto:anandavriddhifoundation@gmail.com"
                 className="flex items-center gap-3 text-lg text-foreground/70 hover:text-warm-gold transition-colors"
               >
                 <Mail className="w-6 h-6" />
-                info@anandavriddhifoundation.org
+                anandavriddhifoundation@gmail.com
               </a>
               <a
                 href="tel:+919175701913"
