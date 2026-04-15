@@ -2,7 +2,7 @@ import { MapPin, Eye, Smile } from 'lucide-react';
 
 const DekhoSection = () => {
   return (
-    <section id="dekho" className="py-24 bg-warm-gradient">
+    <section id="dekho-apna-desh" className="py-24 bg-warm-gradient">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm font-sans font-semibold tracking-[0.15em] uppercase text-warm-gold mb-3">

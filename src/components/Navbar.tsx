@@ -19,7 +19,7 @@ const Navbar = () => {
     { label: 'About', href: `${prefix}#about` },
     { label: 'What We Do', href: `${prefix}#what-we-do` },
     { label: 'Impact', href: `${prefix}#impact` },
-    { label: 'Dekho Apna Desh', href: `${prefix}#dekho` },
+    { label: 'Dekho Apna Desh', href: `${prefix}#dekho-apna-desh` },
     { label: 'Contact', href: `${prefix}#contact` },
   ];
 

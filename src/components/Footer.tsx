@@ -57,7 +57,7 @@ const Footer = () => {
                 <FaInstagram className="w-6 h-6" />
                 @anandavriddhi
               </a>
-              <a
+              {/* <a
                 href="https://www.anandavriddhifoundation.org/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -65,7 +65,7 @@ const Footer = () => {
               >
                 <Globe className="w-6 h-6" />
                 anandavriddhifoundation.org
-              </a>
+              </a> */}
               <a
                 href="mailto:anandavriddhifoundation@gmail.com"
                 className="flex items-center gap-3 text-lg text-foreground/70 hover:text-warm-gold transition-colors"
