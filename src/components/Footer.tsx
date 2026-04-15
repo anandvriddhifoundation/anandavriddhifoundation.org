@@ -67,7 +67,7 @@ const Footer = () => {
                 anandavriddhifoundation.org
               </a> */}
               <a
-                href="mailto:anandavriddhifoundation@gmail.com"
+                href="mailto:anandavriddhifoundation@gmail.com?cc=digital@indiacom.com"
                 className="flex items-center gap-3 text-lg text-foreground/70 hover:text-warm-gold transition-colors"
               >
                 <Mail className="w-6 h-6" />
