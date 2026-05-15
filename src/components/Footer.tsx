@@ -1,5 +1,5 @@
 import { Mail, Globe, Heart, Phone } from 'lucide-react';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import Image from 'next/image';
 import logo from '@/assets/images/logo.png';
 
@@ -56,6 +56,24 @@ const Footer = () => {
               >
                 <FaInstagram className="w-6 h-6" />
                 @anandavriddhi
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ananda-vriddhi-foundation-640009382"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-lg text-foreground/70 hover:text-warm-gold transition-colors"
+              >
+                <FaLinkedin className="w-6 h-6" />
+                Ananda Vriddhi Foundation
+              </a>
+              <a
+                href="https://www.facebook.com/people/Ananda-Vriddhi-Foundation/61560092935733/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-lg text-foreground/70 hover:text-warm-gold transition-colors"
+              >
+                <FaFacebook className="w-6 h-6" />
+                Ananda Vriddhi Foundation
               </a>
               {/* <a
                 href="https://www.anandavriddhifoundation.org/"
