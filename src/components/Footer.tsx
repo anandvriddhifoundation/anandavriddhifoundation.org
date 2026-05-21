@@ -58,7 +58,7 @@ const Footer = () => {
                 @anandavriddhi
               </a>
               <a
-                href="https://www.linkedin.com/in/ananda-vriddhi-foundation-640009382"
+                href="https://www.linkedin.com/company/ananda-vriddhi-foundation/about/?viewAsMember=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-lg text-foreground/70 hover:text-warm-gold transition-colors"
