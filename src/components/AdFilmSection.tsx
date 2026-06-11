@@ -13,19 +13,14 @@ const AdFilmSection = () => {
             A glimpse into what we do, who we serve, and why it matters.
           </p>
 
-          <div className="relative rounded-2xl overflow-hidden shadow-xl border border-border bg-black">
-            <video
-              className="w-full h-auto"
-              controls
-              playsInline
-              preload="metadata"
-            >
-              <source
-                src="/videos/AVF%20AD%20FILM%20Final%201.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
+          <div className="relative rounded-2xl overflow-hidden shadow-xl border border-border bg-black aspect-video">
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/Yi_KeeKBRFc?autoplay=1&mute=1&playsinline=1&rel=0"
+              title="AVF Ad Film"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
       </div>
