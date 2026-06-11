@@ -1,4 +1,5 @@
 import HeroSection from '@/components/HeroSection';
+import AdFilmSection from '@/components/AdFilmSection';
 import AboutSection from '@/components/AboutSection';
 import PillarsSection from '@/components/PillarsSection';
 import TestimonialsClient from '@/components/TestimonialsClient';
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
+      <AdFilmSection />
       <AboutSection />
       <PillarsSection />
       <TestimonialsClient />
