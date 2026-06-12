@@ -20,6 +20,7 @@ const Navbar = () => {
     { label: 'What We Do', href: `${prefix}#what-we-do` },
     { label: 'Impact', href: `${prefix}#impact` },
     { label: 'Dekho Apna Desh', href: `${prefix}#dekho-apna-desh` },
+    { label: 'Get Involved', href: '/get-involved' },
     { label: 'Contact', href: `${prefix}#contact` },
   ];
 
