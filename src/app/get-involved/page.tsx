@@ -45,13 +45,43 @@ const GetInvolvedPage = () => {
   return (
     <main className="pt-28 pb-16 bg-background">
       <section className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto bg-warm-gradient rounded-2xl border border-border p-10 md:p-12 text-center shadow-sm">
           <p className="text-sm font-sans font-semibold tracking-[0.15em] uppercase text-warm-gold mb-3">
             Get Involved
           </p>
-          <h1 className="text-3xl md:text-5xl font-serif font-normal text-foreground mb-6">
-            Be a Part of Someone&apos;s Smile
+          <h1 className="text-3xl md:text-5xl font-serif font-normal text-foreground mb-4">
+            Join Our Mission
           </h1>
+          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+            Fill out the form below and become a part of this journey.
+          </p>
+          <Button
+            variant="donate"
+            size="lg"
+            className="text-base px-8 py-6"
+            asChild
+          >
+            <a
+              href={FORM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => trackFormClick('cta_button')}
+            >
+              <ExternalLink className="w-5 h-5" />
+              Fill the Form
+            </a>
+          </Button>
+          <p className="text-base text-muted-foreground mt-8 italic">
+            Together, let&apos;s bring the world closer to them.
+          </p>
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4 mt-20">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-5xl font-serif font-normal text-foreground mb-6">
+            Be a Part of Someone&apos;s Smile
+          </h2>
           <p className="text-lg text-muted-foreground leading-relaxed mb-6 max-w-2xl mx-auto">
             At Ananda Vriddhi Foundation, we bring joy, wonder, and connection
             to senior citizens and children through immersive Virtual Reality
@@ -93,36 +123,6 @@ const GetInvolvedPage = () => {
           <p className="text-center text-muted-foreground mt-10 max-w-2xl mx-auto">
             Every contribution — big or small — helps bring smiles, curiosity,
             and unforgettable memories to those who need them most.
-          </p>
-        </div>
-      </section>
-
-      <section className="container mx-auto px-4 mt-20">
-        <div className="max-w-3xl mx-auto bg-warm-gradient rounded-2xl border border-border p-10 md:p-12 text-center shadow-sm">
-          <h2 className="text-2xl md:text-4xl font-serif font-normal text-foreground mb-4">
-            Join Our Mission
-          </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            Fill out the form below and become a part of this journey.
-          </p>
-          <Button
-            variant="donate"
-            size="lg"
-            className="text-base px-8 py-6"
-            asChild
-          >
-            <a
-              href={FORM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => trackFormClick('cta_button')}
-            >
-              <ExternalLink className="w-5 h-5" />
-              Fill the Form
-            </a>
-          </Button>
-          <p className="text-base text-muted-foreground mt-8 italic">
-            Together, let&apos;s bring the world closer to them.
           </p>
         </div>
       </section>
