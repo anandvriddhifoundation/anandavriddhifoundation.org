@@ -4,7 +4,9 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(gh api *)",
+      "Bash(python -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(s['state'], '|', s.get\\('environment',''\\), '|', s.get\\('target_url',''\\)[:100], '|', s['created_at']\\) for s in data[:5]]\")"
     ]
   }
 }
